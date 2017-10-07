@@ -16,7 +16,7 @@ optional arguments:
   --threads             number of threads for data loader to use Default=4
   --seed                random seed to use. Default=123
 ```
-This example trains a super-resolution network on the [BSD300 dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), using crops from the 200 training images, and evaluating on crops of the 100 test images. A snapshot of the model after every epoch with filename model_epoch_<epoch_number>.pth
+This example trains a super-resolution network on the [BSD300 dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), extracting patches from the 200 training images, and evaluating on crops of the 100 test images. 
 
 ## Example Usage:
 
