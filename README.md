@@ -28,5 +28,7 @@ dataset, CelebA dataset
 
 ### Apply to low resolution images
 
-
+![1](https://user-images.githubusercontent.com/16787952/31579017-89b5507c-b0e1-11e7-83c9-c73dd7fd2d0f.png)
+![2](https://user-images.githubusercontent.com/16787952/31579030-c4faa0ce-b0e1-11e7-9a9d-68d9fe43517b.png)
+![3](https://user-images.githubusercontent.com/16787952/31579031-c5159de8-b0e1-11e7-8156-5069097f7880.png)
 `
