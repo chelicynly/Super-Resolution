@@ -15,6 +15,7 @@ optional arguments:
   --cuda                use cuda
   --threads             number of threads for data loader to use Default=4
   --seed                random seed to use. Default=123
+  -=level               feature level, level = 0: pixel level
 ```
 This example trains a super-resolution network on the [BSD300 dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), extracting patches from the 200 training images, and evaluating on crops of the 100 test images. 
 
