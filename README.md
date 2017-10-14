@@ -17,14 +17,16 @@ optional arguments:
   --seed                random seed to use. Default=123
   -=level               feature level, level = 0: pixel level
 ```
-This example trains a super-resolution network on the [BSD300 dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), extracting patches from the 200 training images, and evaluating on crops of the 100 test images. 
+Super resolution task with a larger magnification (e.g., 4×). Test on MNIST dataset, LSUN Bedrooms
+dataset, CelebA dataset
 
 ## Example Usage:
 
 ### Train
 
-`python main.py --upscale_factor 3 --batchSize 4 --testBatchSize 100 --nEpochs 30 --lr 0.001`
+`python main.py --upscale_factor 3 --batchSize 4 --testBatchSize 100 --nEpochs 30 --lr 0.001`--level 2
 
 ### Apply to low resolution images
+
 
 `
